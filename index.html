@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RBG to Hex Converter</title>
+
+  <!--bootstrap css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <!--css-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="main-container" class="container d-flex flex-column flex-nowrap align-items-center mt-5">
+    <h1 id="title">RGB to Hex Converter</h1>
+    <!--red -->
+    <div id="red-div" class="container color-div my-2">
+      <span class="red label">R</span>
+      <input id="red-input-js" class="red range-input mx-2" type="range" value="0" min="0" max="255"></input>
+      <span id="red-value-js" class="red value-display">0
+      </span>
+    </div>
+    <!--green-->
+    <div id="green-div" class="container color-div my-2">
+      <span class="green label">G</span>
+      <input id="green-input-js" class="green range-input mx-2" type="range" value="0" min="0" max="255"></input>
+      <span id="green-value-js" class="green value-display">0
+      </span>
+    </div>
+    <!--blue-->
+    <div id="blue-div" class="container color-div my-2">
+      <span class="blue label">B</span>
+      <input id="blue-input-js" class="blue range-input mx-2" type="range" value="0" min="0" max="255"></input>
+      <span id="blue-value-js" class="blue value-display">0
+      </span>
+    </div>
+    <!--hex display-->
+    <div id="hex-display-js" class="hex-display mt-2">#ffffff</div>
+    <!-- compliment display -->
+    <p id="complementary-p-js" class="complementary-p">Complementary Color: <span id="complementary-span-js"
+        class="complementary-span">#fffff</span></p>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

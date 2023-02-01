@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="range"] {
+  width: 200px;
+}
+
+.container {
+  width: auto;
+  max-width: 450px;
+  text-align: center;
+}
+
+.color-div {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5px 15px 5px 15px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.label {
+  display: inline-block;
+  width: 40px;
+  height: 25px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.value-display {
+  display: inline-block;
+  width: 40px;
+  height: 25px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hex-display {
+  width: 325px;
+  height: 100px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 50px;
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+  user-select: all;
+}
+
+.complementary-span {
+  display: inline-block;
+  margin: 5px;
+  padding: 0 5px 0 5px;
+  width: auto;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  user-select: all;
+}
